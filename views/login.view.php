@@ -115,25 +115,31 @@ if (session_status() === PHP_SESSION_NONE) {
         margin-top: 2rem;
     }
     
-    .form-icon-wrapper {
-        position: relative;
-    }
-    
-    .form-icon-wrapper input {
-        padding-left: 3rem;
-        padding-right: 1rem;
-    }
-    
-    .form-icon {
-        position: absolute;
-        left: 1rem;
-        top: 50%;
-        transform: translateY(35%);
-        color: #6b7280;
-        font-size: 1.125rem;
-        pointer-events: none;
-        z-index: 1;
-    }
+.form-icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem; /* space between icon and input */
+    border: 1px solid #d1d5db; /* optional, for visible input border */
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: #fff;
+}
+
+.form-icon-wrapper input {
+    border: none;
+    outline: none;
+    flex: 1; /* fill remaining space */
+    font-size: 1rem;
+    background: transparent;
+}
+
+.form-icon {
+    font-size: 1.25rem;
+    color: #6b7280;
+}
+
+
+
     
     .form-group input:focus + .form-icon,
     .form-group input:not(:placeholder-shown) + .form-icon {

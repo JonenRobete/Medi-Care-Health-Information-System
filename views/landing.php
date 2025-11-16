@@ -24,8 +24,8 @@
                     <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium transition">Services</a>
                     <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition">About</a>
                     <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium transition">Contact</a>
-                    <a href="/register" class="text-gray-700 hover:text-blue-600 font-medium transition">Register</a>
-                    <a href="/login" class="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition font-medium shadow-md hover:shadow-lg">Login</a>
+                    <a href="register" class="text-gray-700 hover:text-blue-600 font-medium transition">Register</a>
+                    <a href="login" class="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition font-medium shadow-md hover:shadow-lg">Login</a>
                 </div>
 
                 <button class="md:hidden text-gray-700">
@@ -49,10 +49,10 @@
                         Book appointments with top medical specialists instantly. Quality healthcare made accessible, convenient, and patient-centered.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="/register" class="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-50 transition font-semibold text-center shadow-lg hover:shadow-xl">
+                        <a href="register" class="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-50 transition font-semibold text-center shadow-lg hover:shadow-xl">
                             Register Now
                         </a>
-                        <a href="/login" class="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-600 transition font-semibold text-center">
+                        <a href="login" class="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-600 transition font-semibold text-center">
                             Login
                         </a>
                         <a href="#services" class="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-600 transition font-semibold text-center">
